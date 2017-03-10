@@ -1,0 +1,19 @@
+{
+  "name": "timestamp-microservice-api",
+  "version": "1.0.0",
+  "description": "User can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:logandhi/timestamp-microservice-api.git"
+  },
+  "author": "Logan Griswold",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
