@@ -1,6 +1,10 @@
 var express = require('express');
 var app = express();
+var path = require('path');
 var MMMM = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+app.use('/', express.static(path.join(__dirname ,"out", "timestamp-microservice-api", "1.0.0")));
+
 app.use('/:datetime', function(req, res) {
     var date = new Date(req.params.datetime);
     
