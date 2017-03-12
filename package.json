@@ -15,5 +15,17 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2"
+  },
+  "apidoc": {
+    "title": "Timestamp Microservice",
+    "url": "https://timestamp-microservice-logan.herokuapp.com",
+    "header": {
+      "title": "Overview",
+      "filename": "readme.md"
+    },
+    "footer": {
+      "title": "Author",
+      "filename": "footer.md"
+    }
   }
 }
